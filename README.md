@@ -73,6 +73,11 @@ Model: Trained various models to predict outcomes and evaluated their performanc
 Interpret: Applied LIME and SHAP to interpret model predictions and improve transparency.
 
 
+**Conclusion:**
+
+This project has successfully advanced the understanding of AI transparency in healthcare. By applying LIME and SHAP techniques, the project addressed critical challenges in model interpretability and trust, contributing to a more ethical and reliable use of AI in healthcare. The results and methodologies presented provide valuable insights for future research and practical applications in the field.
+
+
 
 
 
