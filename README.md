@@ -1,5 +1,6 @@
 # AI-transparency-in-Healthcare
-This project focuses on building a generative AI model that creates insightful content around the themes of Transparency and Explainability in AI in Healthcare
+
+#Improving AI Transparency and Explainability in Healthcare: A Data Science Project
 
 
 
@@ -7,16 +8,55 @@ This project focuses on building a generative AI model that creates insightful c
 
 
 
-Title,Source,Year,Abstract Summary,Key Points,Relevance,Link
-"Transparency and Interpretability of Machine Learning Models in Healthcare: A Survey","arXiv",2022,"This survey provides a comprehensive overview of transparency and interpretability techniques applied to machine learning models in healthcare settings.","- Overview of interpretability methods.<br> - Focus on healthcare applications.","Highly relevant for understanding transparency methods in healthcare.","https://arxiv.org/abs/2201.03632"
-"Explainable AI in Healthcare: A Review","Google Scholar",2023,"A review of explainable AI methods and their impact on healthcare, including techniques and applications for improving decision support systems.","- Explainable AI techniques.<br> - Impact on decision support systems in healthcare.","Very relevant for model explainability in healthcare.","https://scholar.google.com/scholar?cluster=9654238245783447327"
-"Ethics and Transparency in AI-driven Healthcare Systems","IEEE Xplore",2021,"Examines ethical issues related to AI transparency in healthcare, including the implications for patient care and data privacy.","- Ethical implications.<br> - Transparency issues in patient care.","Relevant for exploring ethical considerations.","https://ieeexplore.ieee.org/document/9343678"
-"Understanding AI Transparency in Healthcare: Current Trends and Future Directions","PubMed",2023,"This paper discusses current trends and future directions in AI transparency for healthcare, focusing on improving trust and effectiveness in AI systems.","- Current trends in AI transparency.<br> - Future research directions.","Relevant for current trends and future directions in AI transparency.","https://pubmed.ncbi.nlm.nih.gov/37105222"
-"Challenges and Solutions for Explainable AI in Healthcare","arXiv",2021,"Discusses the main challenges and proposed solutions for implementing explainable AI systems in healthcare contexts.","- Challenges in implementation.<br> - Proposed solutions for explainability.","Very relevant for addressing practical challenges in explainable AI.","https://arxiv.org/abs/2104.06023"
-"Interpretable Machine Learning for Healthcare Applications","Google Scholar",2022,"Explores various methods for making machine learning models interpretable in the healthcare domain, including case studies and practical examples.","- Interpretability methods.<br> - Case studies in healthcare.","Relevant for understanding practical implementations.","https://scholar.google.com/scholar?cluster=15942038239035603954"
-"AI and Patient Safety: Transparency and Explainability Issues","IEEE Xplore",2022,"Analyzes how transparency and explainability impact patient safety in AI-driven healthcare systems.","- Impact on patient safety.<br> - Transparency issues.","Relevant for patient safety aspects of AI transparency.","https://ieeexplore.ieee.org/document/9358291"
-"Advances in Explainable AI for Medical Diagnostics","PubMed",2023,"Highlights recent advances in explainable AI technologies applied to medical diagnostics, focusing on their benefits and limitations.","- Recent advances.<br> - Benefits and limitations in diagnostics.","Relevant for recent technological advancements.","https://pubmed.ncbi.nlm.nih.gov/36546910"
-"Transparency and Accountability in AI-driven Healthcare","arXiv",2023,"Explores how transparency and accountability can be ensured in AI-driven healthcare systems to maintain trust and efficacy.","- Transparency and accountability.<br> - Ensuring trust.","Very relevant for ensuring accountability in AI systems.","https://arxiv.org/abs/2301.05953"
-"Explainable AI Techniques in Health Informatics","Google Scholar",2021,"Provides an overview of explainable AI techniques specifically used in health informatics, including practical applications and challenges.","- Explainable AI techniques.<br> - Applications in health informatics.","Relevant for understanding practical applications.","https://scholar.google.com/scholar?cluster=9275066797120491157"
-"Ethical Considerations in Explainable AI for Healthcare","IEEE Xplore",2022,"Examines the ethical considerations specific to explainable AI systems in the healthcare industry, with a focus on patient outcomes and data handling.","- Ethical considerations.<br> - Impact on patient outcomes.","Relevant for the ethical dimensions of AI explainability.","https://ieeexplore.ieee.org/document/9359521"
-"AI Transparency and Its Impact on Healthcare Decisions","PubMed",2022,"Discusses how AI transparency affects decision-making processes in healthcare, and the implications for clinical practice and patient trust.","- Impact on decision-making.<br> - Clinical practice implications.","Relevant for decision-making processes in healthcare.","https://pubmed.ncbi.nlm.nih.gov/35194743"
+
+**Introduction**
+
+I’m excited to share my latest data science project focusing on enhancing the transparency and explainability of AI models in healthcare. With AI's increasing role in making crucial healthcare decisions, ensuring that these models are both transparent and interpretable is essential for fostering trust and improving clinical outcomes.
+
+**Problem Statement**
+
+AI systems hold the promise of transforming healthcare through advanced predictive capabilities, but their lack of transparency can hinder trust and ethical use. This project explores how transparency and explainability can bridge the gap between sophisticated AI models and the healthcare professionals who depend on them.
+
+**Research and Methodology**
+
+To lay the foundation for my project, I meticulously reviewed 12 recent research papers and articles from arXiv, Google Scholar, IEEE Xplore, and PubMed. These sources were selected for their relevance and recent insights into AI transparency and explainability.
+
+**From my research, I identified key insights and findings:**
+
+Global vs. Local Interpretability: Understanding AI models from both a global perspective (overall model behaviour) and a local perspective (specific predictions) is crucial.
+Explainability Techniques: Tools such as LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) are pivotal in making black-box models more interpretable.
+Ethical Considerations: Transparent models enhance trust and meet ethical standards by ensuring patients understand how their data is used and decisions are made.
+Patient Safety: Transparency helps healthcare professionals verify AI predictions, which is essential for reducing errors and enhancing patient safety.
+Based on these insights, I chose to implement LIME and SHAP techniques to improve the transparency of AI models in healthcare.
+
+**Data Collection and Analysis**
+
+I obtained the Pima Indians Diabetes Dataset from the UCI Machine Learning Repository. This dataset provides various health metrics that are useful for predicting diabetes, making it suitable for demonstrating AI model transparency.
+kaggle dataset link : https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
+
+**Here’s a brief overview of the steps I followed:**
+
+Dataset Loading: Loaded the dataset into Jupyter Notebook.
+Data Preprocessing: Handled missing values, converted categorical data, and performed initial exploratory data analysis (EDA).
+Model Selection: Chose and trained a machine learning model suitable for the dataset.
+Explainability Implementation: Applied LIME and SHAP to explain model predictions.
+The results demonstrated how LIME and SHAP could make AI models more interpretable, providing valuable insights into the decision-making process of the models.
+
+**Key Findings**
+
+Global Interpretability: Provided a comprehensive view of model behaviour.
+Local Interpretability: Offered explanations for individual predictions, enhancing user understanding.
+Ethical Transparency: Ensured that AI models align with ethical standards and foster patient trust.
+Use of OSEMN Principles
+
+**In my project, I applied the OSEMN principles as follows:**
+
+Obtain: Gathered a relevant dataset and research papers.
+Scrub: Cleaned and preprocessed the dataset for analysis.
+Explore: Conducted exploratory data analysis to understand dataset characteristics.
+Model: Developed and trained a machine learning model.
+Interpret: Used LIME and SHAP for model interpretability and transparency.
+Conclusion
+
+This project underscores the importance of AI transparency and explainability in healthcare. By applying LIME and SHAP techniques, I demonstrated how AI models can be made more transparent, improving trust and decision-making in healthcare settings.
